@@ -11,59 +11,66 @@ const [menuOpen, setMenuOpen] = useState(false);
 
 const toggleMenu = () => {
 setMenuOpen(!menuOpen);
+let mobileDropdownMenu = document.getElementById("mobileDropdownMenu");
+mobileDropdownMenu.classList.toggle("hidden");
+
 };
 
 return (
 <div className="relative h-[100vh] text-white font-helvetica xs:mx[60px] lg:mx-[120px] pt-[55px]">
     {/* mobile */}
-    {/* <div className="hidden xs:flex justify-between items-center w-full flex-row-reverse  ">
-        <div className="dropdown ">
+    <div className="xs:flex md:hidden justify-between items-center w-full flex-row text-[#ed2127]">
+        
+    <div className="">
+            <Link to="/">
+            <img src={MassArtLogo} alt="massart-logo" width={100} height={100} className="h-[49px] object-contain" />
+            </Link>
+        </div>
+        <div className="dropdown px-[30px]" >
             <div tabIndex={0} role="button"
-                className=" bg-transparent text-white h-[32px] w-[32px]  md:hidden xl:hidden 2x:hidden lg:hidden"
+                className=" bg-transparent text-white  text-5xl"
                 onClick={toggleMenu}>
                 <RiMenu3Line />
             </div>
             <ul tabIndex={0}
-                className="menu menu-sm dropdown-content right-0 mt-3 z-10 p-2 shadow bg-[white] rounded-[5px] w-56">
-                <li className="text-[#ed2127] font-helvetica">
+                id="mobileDropdownMenu"
+                className="hidden absolute menu menu-sm dropdown-content right-8 mt-3 z-10 p-2 shadow bg-[white] rounded-[5px] w-56">
+                
+                <li className="">
                     <Link to="/">Home</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/about-us">About</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/concept">Concept</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/2023">Preview show 2023</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/preview-show-2024">Preview show 2024</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/preview-show-2025">Preview show 2025</Link>
                 </li>
 
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/gallery">Gallery</Link>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <a>Press</a>
                 </li>
-                <li className="text-[#ed2127] font-helvetica">
+                <li className="">
                     <Link to="/contact-us">Contact</Link>
                 </li>
             </ul>
         </div>
 
-        <div className="w-full">
-            <Link to="/">
-            <img src={massArtLogo} alt="massart-logo" width={100} height={100} className="h-[49px] object-contain" />
-            </Link>
-        </div>
-    </div> */}
+        
+    </div>
 
-    <div className="flex flex-row justify-between items-center ">
+    <div className="xs:hidden md:flex flex-row justify-between items-center">
         <div className="">
             <Link to="/">
             <img src={MassArtLogo} alt="massart-logo" width={100} height={100} className="h-[49px] object-contain" />
