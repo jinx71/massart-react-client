@@ -17,11 +17,11 @@ import FrequentlyAskedQuestion from '../Pages/FrequentlyAskedQuestion/FAQ';
 
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "",
         element: <Main></Main>,
         children: [
             {
-                path: "/",
+                path: "",
                 element: <Home></Home>
                 
             },
