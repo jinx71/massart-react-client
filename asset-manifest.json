@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jinx71.github.io/massart-react-client/static/css/main.5afd97c9.css",
-    "main.js": "/jinx71.github.io/massart-react-client/static/js/main.4a7358b3.js",
+    "main.js": "/jinx71.github.io/massart-react-client/static/js/main.5d4a90c0.js",
     "static/js/453.02449d0d.chunk.js": "/jinx71.github.io/massart-react-client/static/js/453.02449d0d.chunk.js",
     "static/media/ShowReel.mp4": "/jinx71.github.io/massart-react-client/static/media/ShowReel.9593371d6ed98247c3cd.mp4",
     "static/media/Header.mp4": "/jinx71.github.io/massart-react-client/static/media/Header.d9f4dd0b4886ddce2ee5.mp4",
@@ -44,11 +44,11 @@
     "static/media/slick.woff": "/jinx71.github.io/massart-react-client/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/jinx71.github.io/massart-react-client/index.html",
     "main.5afd97c9.css.map": "/jinx71.github.io/massart-react-client/static/css/main.5afd97c9.css.map",
-    "main.4a7358b3.js.map": "/jinx71.github.io/massart-react-client/static/js/main.4a7358b3.js.map",
+    "main.5d4a90c0.js.map": "/jinx71.github.io/massart-react-client/static/js/main.5d4a90c0.js.map",
     "453.02449d0d.chunk.js.map": "/jinx71.github.io/massart-react-client/static/js/453.02449d0d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5afd97c9.css",
-    "static/js/main.4a7358b3.js"
+    "static/js/main.5d4a90c0.js"
   ]
 }
