@@ -37,29 +37,29 @@ return (
                 className="hidden absolute menu menu-sm dropdown-content right-8 mt-3 z-10 p-2 shadow bg-[white] rounded-[5px] w-56">
                 
                 <li className="">
-                    <Link to="/">Home</Link>
+                    <Link to="/">home</Link>
                 </li>
                 <li className="">
-                    <Link to="/about-us">About</Link>
+                    <Link to="/about">about</Link>
                 </li>
                 <li className="">
-                    <Link to="/concept">Concept</Link>
+                    <Link to="/concept">concept</Link>
                 </li>
                 <li className="">
-                    <Link to="/2023">Preview show 2023</Link>
+                    <Link to="/preview-show-2023">preview show 2023</Link>
                 </li>
                 <li className="">
-                    <Link to="/preview-show-2024">Preview show 2024</Link>
+                    <Link to="/preview-show-2024">preview show 2024</Link>
                 </li>
                 <li className="">
-                    <Link to="/preview-show-2025">Preview show 2025</Link>
+                    <Link to="/preview-show-2025">preview show 2025</Link>
                 </li>
 
                 <li className="">
-                    <Link to="/gallary">Gallery</Link>
+                    <Link to="/gallary">gallery</Link>
                 </li>
                 <li className="">
-                    <a>Press</a>
+                <Link to="#">press</Link>
                 </li>
                 <li className="">
                     <Link to="/contact-us">Contact</Link>
@@ -78,20 +78,20 @@ return (
         </div>
         <ul className="flex flex-row justify-end items-center gap-8">
             <li className="">
-                <Link to="/home">Home</Link>
+                <Link to="/home">home</Link>
             </li>
             <li className="">
-                <Link to="/about">About</Link>
+                <Link to="/about">about</Link>
             </li>
             <li className="">
-                <Link to="/concept">Concept</Link>
+                <Link to="/concept">concept</Link>
             </li>
             <li className="">
                 <Menu as="div" className="relative inline-block text-left">
                     <div>
                         <MenuButton
                             className="inline-flex w-full justify-center gap-x-1.5 rounded-md px-3 py-2">
-                            Preview Show
+                            preview show
                             <RxCaretDown aria-hidden="true" className="-mr-1 h-5 w-5" />
                         </MenuButton>
                     </div>
@@ -102,19 +102,19 @@ return (
                             <MenuItem>
                             <Link to="/preview-show-2023"
                                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900">
-                                Preview Show 2023
+                                preview show 2023
                             </Link>
                             </MenuItem>
                             <MenuItem>
                             <Link to="/preview-show-2024"
                                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900">
-                                Preview Show 2024
+                                preview show 2024
                             </Link>
                             </MenuItem>
                             <MenuItem>
                             <Link to="/preview-show-2025"
                                 className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900">
-                                Preview Show 2025
+                                preview show 2025
                             </Link>
                             </MenuItem>
                             
@@ -124,16 +124,16 @@ return (
             </li>
 
             <li className="">
-                <Link to="/gallary">Gallery</Link>
+                <Link to="/gallary">gallery</Link>
             </li>
 
             <li className="">
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact">contact us</Link>
             </li>
             <li className="">
                 <Link to="/register"
                     className=" bg-buttonCustomColor rounded-[1000px]  px-[36px] py-[12px] leading-[24px]  text-[18px]">
-                Register
+                register
                 </Link>
             </li>
         </ul>

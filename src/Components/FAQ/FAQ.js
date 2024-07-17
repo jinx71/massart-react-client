@@ -97,7 +97,6 @@ const FAQ = () => {
         Find out more about our team, vision, and dedication to creating
         extraordinary experiences.
       </p>
-      <p></p>
     </div>
     <div className="">
       <div className="">

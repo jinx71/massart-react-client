@@ -5,7 +5,7 @@ import { useState } from 'react';
 import GetTicket from '../GetTicket/GetTicket.js';
 
 
-const PreviewPage2024Section02 = () => {
+const PreviewPage2025Section02 = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isSelectTab, setIsSelectTab] = useState(0);
 
@@ -21,7 +21,7 @@ const PreviewPage2024Section02 = () => {
     return (
         <div className='lg:mt-[150px] xs:mt-[60px]'>
             <div className="font-[Helvetica] md:text-[42px] md:leading-[56px] w-full md:text-center text-left xs:text-[24px] leading-[36px] font-bold md:mb-[50px] mb-[22px] xs:px-[32px]">
-          preview show <span className="text-red-600">2024</span>
+          preview show <span className="text-red-600">2025</span>
         </div>
       
 
@@ -115,4 +115,4 @@ const PreviewPage2024Section02 = () => {
     );
 };
 
-export default PreviewPage2024Section02;
+export default PreviewPage2025Section02;

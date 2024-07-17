@@ -3,8 +3,6 @@
 import { useState } from "react";
 
 import VisualsSectionImage01 from "../../Assets/Image/Homepage/VisualsSection01.jpg";
-import VisualsSectionImage02 from "../../Assets/Image/Homepage/VisualsSection02.jpg";
-import VisualsSectionImage03 from "../../Assets/Image/Homepage/VisualsSection03.jpg";
 const ArtFestival = () => {
   const [activeButton, setActiveButton] = useState("Donor Pass");
     const [isSelectTab, setIsSelectTab] = useState(0);
@@ -65,13 +63,7 @@ const ArtFestival = () => {
       </div>
 
       <div className="lg:grid lg:grid-cols-1 xs:flex xs:flex-row overflow-x-scroll no-scrollbar gap-[20px]">
-        {/* <img
-          className=" h-full w-full object-cover rounded-[10px]"
-          src={VisualsSectionImage03}
-          alt=""
-          width={100}
-          height={100}
-        /> */}
+       
         <img
           className=" h-full w-full object-cover rounded-[10px]"
           src={VisualsSectionImage01}
@@ -79,13 +71,7 @@ const ArtFestival = () => {
           width={100}
           height={100}
         />
-        {/* <img
-          className=" h-full w-full object-cover rounded-[10px]"
-          src={VisualsSectionImage02}
-          alt=""
-          width={100}
-          height={100}
-        /> */}
+        
       </div>
     </div>
   );

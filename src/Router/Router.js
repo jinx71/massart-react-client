@@ -9,11 +9,11 @@ import PreviewShow2024 from '../Pages/Preview Show 2024/PreviewShow2024';
 import PreviewShow2025 from '../Pages/Preview Show 2025/PreviewShow2025';
 import Gallary from '../Pages/Gallary/Gallary';
 import Contact from '../Pages/Contact/Contact';
-import FAQ from '../Pages/FAQ/FAQ';
 import PrivacyPolicy from '../Pages/Privacy Policy/PrivacyPolicy';
 import Register from '../Pages/Register/Register';
 import NotFound from '../Pages/NotFound/NouFound';
 import TermsOfUse from '../Pages/Terms Of Use/TermsOfUse';
+import FrequentlyAskedQuestion from '../Pages/FrequentlyAskedQuestion/FAQ';
 
 export const router = createBrowserRouter([
     {
@@ -67,7 +67,7 @@ export const router = createBrowserRouter([
             },
             {
                 path: "/faq",
-                element: <FAQ></FAQ>
+                element: <FrequentlyAskedQuestion></FrequentlyAskedQuestion>
             },
             {
                 path: "/privacy-policy",

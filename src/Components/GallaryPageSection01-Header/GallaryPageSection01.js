@@ -11,7 +11,7 @@ const GallaryPageSection01 = () => {
   }
     return (
         <div className='lg:mt-[150px] xs:mt-[60px] xs:px-[32px] lg:px-[120px]'>
-            <div>
+    <div>
         <div className="grid-col-1 lg:text-center text-red-600 block font-[Helvetica] md:text-[42px] text-[24px] font-bold">
         The Gallery of <span className="text-red-600">Durga Puja Art</span>
       </div>

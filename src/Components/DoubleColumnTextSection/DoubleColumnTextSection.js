@@ -15,7 +15,9 @@ return (
        (
         sectionText.sectionText.Path !== "/concept" && 
         sectionText.sectionText.Path !== "/preview-show-2023" &&
-        sectionText.sectionText.Path !== "/preview-show-2024"
+        sectionText.sectionText.Path !== "/preview-show-2024" &&
+        sectionText.sectionText.Path !== "/preview-show-2025"
+          
       ) && (
       <p className=" font-normal  xs:text-[12px] xs:leading-[24px] xs:pb-[25px] lg:text-[16px]">
         {sectionText.sectionText.Paragraph}
@@ -27,7 +29,9 @@ return (
       (
         sectionText.sectionText.Path === "/concept" || 
         sectionText.sectionText.Path === "/preview-show-2023" ||
-        sectionText.sectionText.Path === "/preview-show-2024"
+        sectionText.sectionText.Path === "/preview-show-2024" ||
+        sectionText.sectionText.Path === "/preview-show-2025"
+          
       ) && (
       <>
         <p className="font-normal xs:text-[12px] xs:leading-[24px] xs:pb-[25px] lg:text-[16px]">
@@ -55,7 +59,9 @@ return (
       (
         sectionText.sectionText.Path !== "/concept" && 
         sectionText.sectionText.Path !== "/preview-show-2023" &&
-        sectionText.sectionText.Path !== "/preview-show-2024"
+        sectionText.sectionText.Path !== "/preview-show-2024" &&
+        sectionText.sectionText.Path !== "/preview-show-2025"
+          
       ) && (
         <div className="">
       <img src={sectionText.sectionText.Image} alt={sectionText.sectionText.ImageTitle} 
@@ -67,11 +73,13 @@ return (
         (
           sectionText.sectionText.Path === "/concept" || 
           sectionText.sectionText.Path === "/preview-show-2023" ||
-          sectionText.sectionText.Path === "/preview-show-2024"
+          sectionText.sectionText.Path === "/preview-show-2024" ||
+          sectionText.sectionText.Path === "/preview-show-2025"
+          
         ) && (
           <div className="">
           <img src={sectionText.sectionText.Image} alt={sectionText.sectionText.ImageTitle} 
-            className="w-full h-[347px] object-cover rounded-[10px] w-[527px] h-[777px] object-cover"/>
+            className="object-cover rounded-[10px] w-[527px] h-[777px] object-cover"/>
         </div>
           )
       }

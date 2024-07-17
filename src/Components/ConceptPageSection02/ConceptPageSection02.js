@@ -15,7 +15,7 @@ const ConceptPageSection02 = () => {
             src= {ConceptPageSection02Image01}
             alt=""
           />
-          <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-center p-2 text-white">
+          <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-6 text-white">
             <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
               contemporary durga puja Art
             </p>
@@ -36,7 +36,7 @@ const ConceptPageSection02 = () => {
             src={ConceptPageSection02Image02}
             alt=""
           />
-          <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-center p-2 text-white">
+          <div className="hidden absolute text-[12px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-6 text-white">
             <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
             traditional durga puja Art
             </p>
@@ -58,7 +58,7 @@ const ConceptPageSection02 = () => {
             src={ConceptPageSection02Image03}
             alt=""
           />
-          <div className="hidden absolute text-[24px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-center p-2 text-white">
+          <div className="hidden absolute text-[24px] top-0 bottom-0 left-0 right-0 group-hover:flex flex-col justify-end p-6 text-white">
             <p className="text-[24px] leading-[25px] font-[Helvetica] mb-[10px]">
             bonedi bari durga puja Art
             </p>
