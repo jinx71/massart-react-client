@@ -19,7 +19,7 @@ const ArtFestival = () => {
 
   return (
     <div
-      className="lg:mt-[150px] xs:mt-[60px] xs:px-[32px] bg-white font-helvetica"
+      className="lg:mt-[150px] xs:mt-[60px] lg:px-[120px] xs:px-[32px] bg-white font-helvetica"
     >
       <div className="lg:w-1/2 xs:w-full mx-auto text-center ">
         <h1 className=" xs:text-[24px] lg:text-[42px] font-bold  font-helvetica xs:leading-[35px] lg:leading-[74.5px] ">
