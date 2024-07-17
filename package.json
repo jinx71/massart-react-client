@@ -2,6 +2,7 @@
   "name": "massart-v2.0",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jinx71.io/massart-react-client",
   "dependencies": {
     "@headlessui/react": "^2.1.2",
     "@testing-library/jest-dom": "^5.17.0",
