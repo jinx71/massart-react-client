@@ -22,7 +22,7 @@ const ConceptPageSection02 = () => {
             <div className="pt-[0px]">
               <div className="pt-[10px]">
                 <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
-                  know more
+                  read more
                 </button>
               </div>
             </div>
@@ -44,7 +44,7 @@ const ConceptPageSection02 = () => {
               
               <div className="pt-[10px]">
                 <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
-                  know more
+                  read more
                 </button>
               </div>
             </div>
@@ -66,7 +66,7 @@ const ConceptPageSection02 = () => {
               
               <div className="pt-[10px]">
                 <button className="bg-buttonCustomColor text-white text-[12px] leading-[24px] font-helvetica font-bold px-[17px] py-[4px] rounded-full">
-                  know more
+                  read more
                 </button>
               </div>
             </div>

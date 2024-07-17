@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const DoubleColumnTextSection = ({sectionText}) => {
-  // console.log(sectionText);
+  console.log(sectionText);
 return (
 <div className="bg-white font-helvetica lg:mt-[150px] xs:mt-[60px] lg:px-[120px] xs:px-[32px]">
   <div className="flex flex-col lg:flex-row-reverse justify-between lg:gap-[92px] ">
@@ -12,7 +12,11 @@ return (
         <span className="text-buttonCustomColor "> {sectionText.sectionText.HeadingRedPart} </span>
       </h1>
       {
-      sectionText.sectionText.Path !== "/concept" && (
+       (
+        sectionText.sectionText.Path !== "/concept" && 
+        sectionText.sectionText.Path !== "/preview-show-2023" &&
+        sectionText.sectionText.Path !== "/preview-show-2024"
+      ) && (
       <p className=" font-normal  xs:text-[12px] xs:leading-[24px] xs:pb-[25px] lg:text-[16px]">
         {sectionText.sectionText.Paragraph}
       </p>
@@ -20,7 +24,11 @@ return (
       }
 
       {
-      sectionText.sectionText.Path === "/concept" && (
+      (
+        sectionText.sectionText.Path === "/concept" || 
+        sectionText.sectionText.Path === "/preview-show-2023" ||
+        sectionText.sectionText.Path === "/preview-show-2024"
+      ) && (
       <>
         <p className="font-normal xs:text-[12px] xs:leading-[24px] xs:pb-[25px] lg:text-[16px]">
           {sectionText.sectionText.Paragraph01}
@@ -44,7 +52,11 @@ return (
       }
     </div>
     {
-     sectionText.sectionText.Path !== "/concept" && (
+      (
+        sectionText.sectionText.Path !== "/concept" && 
+        sectionText.sectionText.Path !== "/preview-show-2023" &&
+        sectionText.sectionText.Path !== "/preview-show-2024"
+      ) && (
         <div className="">
       <img src={sectionText.sectionText.Image} alt={sectionText.sectionText.ImageTitle} 
         className="w-full h-[347px] object-cover rounded-[10px] w-full h-[100%] object-cover"/>
@@ -52,7 +64,11 @@ return (
       )
     }
       {
-        sectionText.sectionText.Path === "/concept" && (
+        (
+          sectionText.sectionText.Path === "/concept" || 
+          sectionText.sectionText.Path === "/preview-show-2023" ||
+          sectionText.sectionText.Path === "/preview-show-2024"
+        ) && (
           <div className="">
           <img src={sectionText.sectionText.Image} alt={sectionText.sectionText.ImageTitle} 
             className="w-full h-[347px] object-cover rounded-[10px] w-[527px] h-[777px] object-cover"/>
