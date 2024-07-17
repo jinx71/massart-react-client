@@ -2,6 +2,7 @@ import React from 'react';
 import DoubleColumnTextSection from '../../Components/DoubleColumnTextSection/DoubleColumnTextSection';
 import HomePageImage01 from "../../Assets/Image/Homepage/homepage_Image_01.jpg";
 import ArtFestival from '../../Components/ArtFestival/ArtFestival';
+import GallaryPageSection01 from '../../Components/GallaryPageSection01-Header/GallaryPageSection01';
 const Home = () => {
     const sectionText = {
         HeadingBlackPart : "What is ",
@@ -16,7 +17,8 @@ const Home = () => {
         <>
         <DoubleColumnTextSection sectionText={{sectionText}}></DoubleColumnTextSection>
         <ArtFestival></ArtFestival>
-        
+        <GallaryPageSection01></GallaryPageSection01>
+
         </>
     );
 };

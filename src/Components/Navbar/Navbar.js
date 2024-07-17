@@ -56,7 +56,7 @@ return (
                 </li>
 
                 <li className="">
-                    <Link to="/gallery">Gallery</Link>
+                    <Link to="/gallary">Gallery</Link>
                 </li>
                 <li className="">
                     <a>Press</a>
