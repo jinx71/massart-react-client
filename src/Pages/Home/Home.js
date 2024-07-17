@@ -1,8 +1,14 @@
 import React from 'react';
 import DoubleColumnTextSection from '../../Components/DoubleColumnTextSection/DoubleColumnTextSection';
-import HomePageImage01 from "../../Assets/Image/Homepage/homepage_Image_01.jpg";
 import ArtFestival from '../../Components/ArtFestival/ArtFestival';
 import GallaryPageSection01 from '../../Components/GallaryPageSection01-Header/GallaryPageSection01';
+import HomePageConceptSection from '../../Components/HomePageConceptSection/HomePageConceptSection';
+import HomePageVideoSection from '../../Components/HomePageVideoSection/HomePageVideoSection';
+import HomePageBuildMemorySection from '../../Components/HomePageBuildMemorySection/HomePageBuildMemorySection';
+import HomePageTestimonials from '../../Components/HomePageTestimonial/HomePageTestimonial';
+import FAQ from '../../Components/FAQ/FAQ';
+import HomePageMasterClass from '../../Components/HomePageMasterClass/HomePageMasterClass';
+
 const Home = () => {
     const sectionText = {
         HeadingBlackPart : "What is ",
@@ -18,6 +24,12 @@ const Home = () => {
         <DoubleColumnTextSection sectionText={{sectionText}}></DoubleColumnTextSection>
         <ArtFestival></ArtFestival>
         <GallaryPageSection01></GallaryPageSection01>
+        <HomePageConceptSection></HomePageConceptSection>
+        <HomePageVideoSection></HomePageVideoSection>
+        <HomePageMasterClass></HomePageMasterClass>
+        <HomePageBuildMemorySection></HomePageBuildMemorySection>
+        <HomePageTestimonials></HomePageTestimonials>
+        <FAQ></FAQ>
 
         </>
     );
